@@ -1,8 +1,9 @@
+
 <?php
 /**
  * The WordPress Plugin Simple Local SEO.
  *
- * Plug in for creating SEO websites for small local businesses.
+ * Plug in for creating SEO NAP for small local businesses.
  *
  * @package   simple-local-seo
  * @author    Vaishali Patil <vaishali.Badgujar@gmail.com>
@@ -13,7 +14,7 @@
  * @wordpress-plugin
  * Plugin Name:       Simple Local SEO
  * Plugin URI:        
- * Description:       Plug in for creating SEO websites for small local businesses.
+ * Description:      A very simple and effective plugin to enter small business contact details the SEO way. 
  * Version:           1.0.0
  * Author:            Vaishali Patil
  * Author URI:        https://github.com/vaishalijp
@@ -34,7 +35,8 @@ if ( ! defined( 'WPINC' ) ) {
  *----------------------------------------------------------------------------*/
 
 require_once( plugin_dir_path( __FILE__ ) . 'public/class-simple-local-seo.php' );
-require_once( plugin_dir_path( __FILE__ ) . 'admin/includes/nap_form_schema_shortcode.php');	
+require_once( plugin_dir_path( __FILE__ ) . 'includes/nap_schema_for_shortcode.php');	
+
 
 
 /*
@@ -51,6 +53,7 @@ register_deactivation_hook( __FILE__, array( 'Simple_Local_Seo', 'deactivate' ) 
 add_action( 'plugins_loaded', array( 'Simple_Local_Seo', 'get_instance' ) );
 
 add_shortcode( 'nap_schema', 'display_nap_schema' ); 
+
 
 /*----------------------------------------------------------------------------*
  * Dashboard and Administrative Functionality

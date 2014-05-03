@@ -15,8 +15,9 @@
 require_once( plugin_dir_path( __FILE__ ) . 'includes/nap_form_schema_init.php');	
 
 require_once( plugin_dir_path( __FILE__ ) . 'includes/nap_plugin_help.php');	
+?>
 
-
+<?php
 /**
  * Simple Local SEO Plugin Admin functionality class. 
  *
