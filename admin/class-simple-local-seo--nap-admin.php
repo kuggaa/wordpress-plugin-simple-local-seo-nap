@@ -1,11 +1,11 @@
 <?php
 /**
- * Simple Local SEO NAP
+ * Simple Local SEO.
  *
  * @package   Simple_local_SEO_Admin
  * @author    Vaishali Patil	<vaishali.Badgujar@gmail.com>
  * @license   GPL-2.0+
- * @link      https://github.com/vaishalijp/wordpress-pluin-simple-local-seo-nap
+ * @link      https://github.com/vaishalijp/wordpress-pluin-simple-local-seo
  * @copyright 2014 Vaishali Patil
  */
  
@@ -19,7 +19,7 @@ require_once( plugin_dir_path( __FILE__ ) . 'includes/nap_plugin_help.php');
 
 <?php
 /**
- * Simple Local SEO NAP Plugin Admin functionality class. 
+ * Simple Local SEO Plugin Admin functionality class. 
  *
  * @package Simple_local_SEO_Admin
  * @author  Vaishali Patil <vaishali.Badgujar@gmail.com>

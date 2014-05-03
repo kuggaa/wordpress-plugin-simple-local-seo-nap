@@ -1,18 +1,18 @@
 
 <?php
 /**
- * The WordPress Plugin Simple Local SEO NAP
+ * The WordPress Plugin Simple Local SEO.
  *
  * Plug in for creating SEO NAP for small local businesses.
  *
- * @package   simple-local-seo-nap
+ * @package   simple-local-seo
  * @author    Vaishali Patil <vaishali.Badgujar@gmail.com>
  * @license   GPL-2.0+
  * @link      http://example.com
  * @copyright 2014 Vaishali Patil
  *
  * @wordpress-plugin
- * Plugin Name:       Simple Local SEO NAP
+ * Plugin Name:       Simple Local SEO
  * Plugin URI:        
  * Description:      A very simple and effective plugin to enter small business contact details the SEO way. 
  * Version:           1.0.0
@@ -22,7 +22,7 @@
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
  * Domain Path:       /languages
- * GitHub Plugin URI: https://github.com/vaishalijp/wordpress-pluin-simple-local-seo-nap
+ * GitHub Plugin URI: https://github.com/vaishalijp/wordpress-pluin-simple-local-seo
  */
 
 // If this file is called directly, abort.
@@ -34,7 +34,7 @@ if ( ! defined( 'WPINC' ) ) {
  * Public-Facing Functionality
  *----------------------------------------------------------------------------*/
 
-require_once( plugin_dir_path( __FILE__ ) . 'public/class-simple-local-seo-nap.php' );
+require_once( plugin_dir_path( __FILE__ ) . 'public/class-simple-local-seo.php' );
 require_once( plugin_dir_path( __FILE__ ) . 'includes/nap_schema_for_shortcode.php');	
 
 

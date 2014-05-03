@@ -1,6 +1,6 @@
 <?php 
 /**
- * Display help for the simple local seo NAP plug in
+ * Display help for the simple local seo plug in
  *
  * @since    1.0.0
  */

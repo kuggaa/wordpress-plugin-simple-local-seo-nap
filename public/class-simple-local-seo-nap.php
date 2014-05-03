@@ -5,7 +5,7 @@
  * @package   Simple_local_SEO
  * @author    Vaishali Patil <vaishali.Badgujar@gmail.com>
  * @license   GPL-2.0+
- * @link      https://github.com/vaishalijp/wordpress-pluin-simple-local-seo-nap
+ * @link      https://github.com/vaishalijp/wordpress-pluin-simple-local-seo
  * @copyright 2014 Vaishali Patil
  */
 
@@ -42,7 +42,7 @@ class Simple_Local_Seo {
 	 *
 	 * @var      string
 	 */
-	protected $plugin_slug = 'simple-local-seo-nap';
+	protected $plugin_slug = 'simple-local-seo';
 
 	/**
 	 * Instance of this class.
