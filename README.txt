@@ -1,4 +1,4 @@
-=== Simple Local SEO ===
+=== Simple Local SEO NAP===
 
 
 Tags: seo, nap settings
@@ -20,18 +20,18 @@ of small businesses to help make it recognised by search engine.
 
 = Uploading in WordPress Dashboard =
 
-1. Download `simple-local-seo.zip`
+1. Download `simple-local-seo-nap.zip`
 2. Navigate to the 'Add New' in the plugins dashboard
 3. Navigate to the 'Upload' area
-4. Select `simple-local-seo.zip` from your computer
+4. Select `simple-local-seo-nap.zip` from your computer
 5. Click 'Install Now'
 6. Activate the plugin in the Plugin dashboard
 
 = Using FTP =
 
-1. Download `simple-local-seo.zip`
-2. Extract the zip to `simple-local-seo` directory on your computer
-3. Upload the `simple-local-seo` directory to the `/wp-content/plugins/` directory
+1. Download `simple-local-seo-nap.zip`
+2. Extract the zip to `simple-local-seo-nap` directory on your computer
+3. Upload the `simple-local-seo-nap` directory to the `/wp-content/plugins/` directory
 4. Activate the plugin in the Plugin dashboard
 
 

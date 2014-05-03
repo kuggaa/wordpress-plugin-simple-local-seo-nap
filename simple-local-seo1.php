@@ -1,17 +1,17 @@
 <?php
 /**
- * The WordPress Plugin Simple Local SEO.
+ * The WordPress Plugin Simple Local SEO NAP
  *
  * Plug in for creating SEO websites for small local businesses.
  *
- * @package   simple-local-seo
+ * @package   simple-local-seo-nap
  * @author    Vaishali Patil <vaishali.Badgujar@gmail.com>
  * @license   GPL-2.0+
  * @link      http://example.com
  * @copyright 2014 Vaishali Patil
  *
  * @wordpress-plugin
- * Plugin Name:       Simple Local SEO
+ * Plugin Name:       Simple Local SEO NAP
  * Plugin URI:        
  * Description:       Plug in for creating SEO websites for small local businesses.
  * Version:           1.0.0
@@ -21,7 +21,7 @@
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
  * Domain Path:       /languages
- * GitHub Plugin URI: https://github.com/vaishalijp/wordpress-pluin-simple-local-seo
+ * GitHub Plugin URI: https://github.com/vaishalijp/wordpress-pluin-simple-local-seo-nap
  */
 
 // If this file is called directly, abort.
