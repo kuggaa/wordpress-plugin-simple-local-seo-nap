@@ -34,7 +34,7 @@ if ( ! defined( 'WPINC' ) ) {
  * Public-Facing Functionality
  *----------------------------------------------------------------------------*/
 
-require_once( plugin_dir_path( __FILE__ ) . 'public/class-simple-local-seo.php' );
+require_once( plugin_dir_path( __FILE__ ) . 'public/class-simple-local-seo-nap.php' );
 require_once( plugin_dir_path( __FILE__ ) . 'includes/nap_schema_for_shortcode.php');	
 
 
@@ -61,7 +61,7 @@ add_shortcode( 'nap_schema', 'display_nap_schema' );
 
 if ( is_admin() && ( ! defined( 'DOING_AJAX' ) || ! DOING_AJAX ) ) {
 
-	require_once( plugin_dir_path( __FILE__ ) . 'admin/class-simple-local-seo-admin.php' );
+	require_once( plugin_dir_path( __FILE__ ) . 'admin/class-simple-local-seo-nap-admin.php' );
 	
 	add_action( 'plugins_loaded', array( 'Simple_Local_Seo_Admin', 'get_instance' ) );
 	
